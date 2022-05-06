@@ -1,7 +1,7 @@
 Feature: Login Functionality
 
 Background: User is successfully logged in
-Given user open "Chrome" browser with exe "E:\\Automation Support\\chromedriver.exe"
+Given user open "Chrome" browser with exe "E:\\2022\\Automation Support 1\\chromedriver.exe"
 Given user open url as "https://www.flipkart.com/"
 
 Scenario: Login Functionality with valid credentials

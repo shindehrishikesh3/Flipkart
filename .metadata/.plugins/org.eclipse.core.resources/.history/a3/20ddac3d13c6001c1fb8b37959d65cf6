@@ -1,0 +1,17 @@
+Feature: To check login functionality of gmail
+
+Scenario Outline: Login functionality
+When user launch "Chrome" browser
+When user open URL as "URL"
+When user click on login button
+when user enter username as <username>
+When user click on enter button
+When user enter password as <xyz>
+When user click on login button
+Then user able to see their profile
+
+Examples:
+           |username|password|
+               |abcd|1234|
+                |xyz|456|
+                |zxc|0987|
